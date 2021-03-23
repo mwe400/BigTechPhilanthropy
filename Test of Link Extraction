@@ -1,0 +1,5 @@
+library(Rcrawler)
+
+#call rCrawler and crawl test site
+Rcrawler(Website = "https://www.facebook.com/journalismproject/programs/grants", no_cores = 4, no_conn = 4 , 
+  NetworkData = TRUE, NetwExtLinks =TRUE,  statslinks = TRUE)
